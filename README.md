@@ -1,16 +1,8 @@
 # flutter_card_ui
 
-A new Flutter project.
+Flutter Card UI is just the UserInterface of different designs of cards
 
-## Getting Started
+Deigned inspired by Card made by Divan Raj on dribbble
+![Link](https://dribbble.com/shots/5151284-Cards)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](cards.png)
