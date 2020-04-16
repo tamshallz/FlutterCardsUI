@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_card_ui/Resources/KindsCards/checkout.dart';
+import 'package:flutter_card_ui/Resources/KindsCards/dark_paid_card.dart';
 import 'package:flutter_card_ui/Resources/KindsCards/men_card.dart';
+import 'package:flutter_card_ui/Resources/KindsCards/paid_men_card.dart';
+import 'package:flutter_card_ui/Resources/KindsCards/purple_but_card.dart';
 import 'package:flutter_card_ui/Resources/KindsCards/purple_card.dart';
 import 'package:flutter_card_ui/Resources/KindsCards/reschedule_card.dart';
 import 'package:flutter_card_ui/Resources/KindsCards/schedule_card.dart';
 import 'package:flutter_card_ui/Resources/KindsCards/white_paid_card.dart';
+import 'package:flutter_card_ui/Resources/KindsCards/women_checkout.dart';
 
 class CardsHub extends StatelessWidget {
   @override
@@ -30,6 +35,16 @@ class CardsHub extends StatelessWidget {
                     PurpleCard(),
                     SizedBox(height: 20),
                     RescheduleCard(),
+                    SizedBox(height: 20),
+                    CheckOutCard(),
+                    SizedBox(height: 20),
+                    PaidMenCard(),
+                    SizedBox(height: 20),
+                    WomenCheckOutCard(),
+                    SizedBox(height: 20),
+                    PurpleCheckOutButtonCard(),
+                    SizedBox(height: 20),
+                    DarkPaidCard(),
                     SizedBox(height: 20),
                   ],
                 ),
